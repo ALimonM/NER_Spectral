@@ -1,0 +1,76 @@
+PER	Abogado General del Estado
+PER	Daryl Williams
+MIS	Ley
+PER	Abogado General
+ORG	Tribunal Supremo
+LOC	Victoria
+LOC	Australia
+MIS	CrimeNet
+PER	Abogado General
+LOC	Victoria
+PER	Rob Hulls
+MIS	CrimeNet
+PER	Hulls
+ORG	Commonwealth
+LOC	Melbourne
+LOC	Victoria
+ORG	Izquierda Unida de Santander
+MIS	Ciudad
+ORG	Consejo Político Municipal de IU
+LOC	Santander
+PER	Ernesto conclusión de la Hera
+PER	Gón de la Hera
+MIS	Ciudad
+ORG	IU
+ORG	Ayuntamiento
+MIS	Ciudad
+ORG	IU
+LOC	calle Alta
+LOC	Cazoña
+LOC	Castilla
+LOC	Hermida
+MIS	Ciudad
+PER	Gómez de la Hera
+ORG	PP
+LOC	Santander
+LOC	Europa
+ORG	Ayuntamiento
+LOC	Santander
+ORG	EFE
+LOC	Cantabria
+LOC	Fráncfort
+LOC	RFA
+ORG	EFECOM
+ORG	Deutsche Telekom
+ORG	Multilink
+ORG	France Telecom
+ORG	Deutsche Telekom
+ORG	MetroHoldings
+ORG	Multilink
+LOC	Suiza
+ORG	Deutsche Telekom
+ORG	Delegación de la Agencia EFE
+LOC	Extremadura
+PER	LASA
+PER	ZABALA
+ORG	Junta de Extremadura
+PER	Juan Carlos Rodríguez Ibarra
+ORG	Presidencia del Gobierno
+MIS	LasaZabala
+PER	Lourdes Díez Urraca
+LOC	Guipúzcoa
+PER	Julen Elgorriaga
+PER	Antonio Rodríguez Galindo
+PER	Enrique Rodríguez Galindo
+ORG	Pleno de la Asamblea de Extremadura
+ORG	PSOENI
+ORG	PP
+ORG	MixtoDiputados de IU
+ORG	Gobierno
+MIS	Orden Ministerial
+MIS	Economía Industria Comercio
+PER	Manuel Amigo
+ORG	Caja Extremadura
+ORG	Caja Badajoz
+PER	Jesús Medina
+PER	José Manuel Sánchez Rojas
