@@ -44,7 +44,7 @@ named_entity = []
 exclude = set(string.punctuation)
 pattern ='[0-9]+'
 aux_list=[]
-for line in lines[1:10000]:
+for line in lines:
   aux=line.strip().split(" ")
   aux[0] = re.sub(pattern, "DIGITO",aux[0])
   aux_string=replace_digit(aux[0])
@@ -60,7 +60,7 @@ for line in lines[1:10000]:
     elif aux[1][0] =="I":
       aux_list.append(aux_string)
 
-model = gensim.models.Word2Vec.load_word2vec_format(model_path, binary=True)
+model = gensim.models.Word2Vec.load(model_path)
 
 
 i = 0
