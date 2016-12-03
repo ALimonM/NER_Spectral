@@ -13,7 +13,13 @@ class MySentences(object):
                 yield line.split()
 
 sentences = MySentences('/Volumes/Seagate Backup Plus Drive/NLP/Words_embedding/clean_corpus/spanish_billion_words/') 
-model = gensim.models.Word2Vec(sentences,min_count=5, sg = 1, size=200,
-                               window=5,negative = 5, workers=4)
+model = gensim.models.Word2Vec(sentences,min_count=5, sg = 1, size=300, window=5,negative = 5, workers=4)
+model.save('skip_m5_s300_w5_n5')
 
-model.save('skip_5')
+
+model = gensim.models.Word2Vec(sentences,min_count=3, sg = 1, size=200, window=5,negative = 5, workers=4)
+model.save('skip_m3_s200_w5_n5')
+
+
+model = gensim.models.Word2Vec(sentences,min_count=3, sg = 1, size=100, window=5,negative = 5, workers=4)
+model.save('skip_m3_s200_w5_n5')

@@ -28426,7 +28426,7 @@ Rica I-LOC
 Colón O
 ) O
 305,64 O
-/ O
+No
 306,12 O
 - O
 / O

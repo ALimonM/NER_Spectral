@@ -48,7 +48,7 @@ for item in sentence_line:
     pattern ='(?P<order>[0-9]+)'
     item = re.sub(pattern, "DIGITO",item)
     item = ''.join(ch for ch in item if ch not in exclude)
-    pattern = 'DIGITO\sDIGITO'
+    pattern = 'DIGITO[\s]+DIGITO'
     for i in range(5):
       item = re.sub(pattern, "DIGITO ",item)
     pattern = 'DIGITODIGITO'
